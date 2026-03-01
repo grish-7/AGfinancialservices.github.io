@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AG Financial Services</title>
+
+<!-- Professional Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0b2a4a;
+    color: white;
+}
+
+header {
+    background: linear-gradient(135deg, #0b2a4a, #123d6b);
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Logo Animation */
+.logo {
+    font-size: 42px;
+    font-weight: 700;
+    color: gold;
+    animation: fadeInDown 1.5s ease-out;
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.tagline {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.highlight {
+    background: gold;
+    color: black;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-weight: 600;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section h2 {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    background: #123d6b;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.cta {
+    background: gold;
+    color: black;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: #071c33;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">AG Financial Services</div>
+    <div class="tagline">In Association with SMC Global Securities Ltd.</div>
+    <div class="tagline">Your Trusted Financial Growth Partner</div>
+    <div class="highlight">We Provide FREE Demat Account</div>
+</header>
+
+<div class="section">
+    <div class="services">
+        <div class="card">
+            <h2>Investment & Wealth Services</h2>
+            <ul>
+                <li>✔ Stock Market Trading</li>
+                <li>✔ Mutual Funds (SIP & Lump Sum)</li>
+                <li>✔ Portfolio Guidance</li>
+                <li>✔ Life & General Insurance</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Loan Assistance</h2>
+            <ul>
+                <li>✔ Personal Loan</li>
+                <li>✔ Business Loan</li>
+                <li>✔ Home Loan</li>
+                <li>✔ Education Loan</li>
+                <li>✔ All Types of Loans Available</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="cta">
+    Call / WhatsApp Now: 8250888829 <br>
+    <a class="whatsapp-btn" href="https://wa.me/918250888829" target="_blank">
+        Chat on WhatsApp
+    </a>
+</div>
+
+<footer>
+    Ambika Das - Proprietor <br>
+    AMFI Regn No: ARN-328200 <br><br>
+    Fast Processing | Transparent Service | Professional Support
+</footer>
+
+</body>
+</html>
